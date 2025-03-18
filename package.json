@@ -10,6 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+<<<<<<< HEAD
+=======
+    "date-fns": "^4.1.0",
+    "phosphor-react": "^1.4.1",
+>>>>>>> 408bdbd (avatar, comment, header, post, sidebar)
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },

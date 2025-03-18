@@ -8,8 +8,20 @@
   --gray-800: #202024;
   --gray-900: #121214;
 
+<<<<<<< HEAD
   --green-500: #00875f;
 
+=======
+  --green-300: #00b37e;
+  --green-500: #00875f;
+
+  --red-500: #f75a68;
+}
+
+:focus {
+  outline: transparent;
+  box-shadow: 0 0 0 2px var(--green-500);
+>>>>>>> 408bdbd (avatar, comment, header, post, sidebar)
 }
 
 * {
@@ -22,6 +34,7 @@ body {
   background: var(--gray-900);
   color: var(--gray-300);
   -webkit-font-smoothing: antialiased;
+<<<<<<< HEAD
 
 }
 
@@ -30,3 +43,15 @@ body, input, textarea, button {
   font-weight: 400;
   font-size: 1rem;
 }
+=======
+}
+
+body,
+input,
+textarea,
+button {
+  font-family: "roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+>>>>>>> 408bdbd (avatar, comment, header, post, sidebar)
